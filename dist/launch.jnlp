@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>project</title>
+        <vendor>Anant Kumar Mishra</vendor>
+        <homepage href=""/>
+        <description>project</description>
+        <description kind="short">project</description>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se java-vm-args="-splash:src/Icons/splas.png" version="1.8+"/>
+        <jar href="project.jar" main="true"/>
+    <jar href="lib/mysql-connector-java-5.1.23-bin.jar"/>
+<jar href="lib/org-netbeans-modules-db-mysql.jar"/>
+<jar href="lib/beansbinding-1.2.1.jar"/>
+<jar href="lib/swingx-all-1.6.4.jar"/>
+<jar href="lib/rs2xml.jar"/>
+<jar href="lib/rs2xml.jar"/>
+<jar href="lib/deploy.jar"/>
+<jar href="lib/plugin.jar"/>
+</resources>
+    <application-desc main-class="startLogin">
+    </application-desc>
+</jnlp>
